@@ -1,0 +1,8 @@
+{
+  "locale": "en-US",
+  "translations": {
+    "child-1-works": "Child #1 works!",
+    "child-2-works": "Child #2 works!",
+    "home-works": "Home works!"
+  }
+}
