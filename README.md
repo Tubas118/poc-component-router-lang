@@ -10,15 +10,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/poc-componen
 
 * Build:
 
-** When there are changes to the project that you want to deploy to either Docker nginx container or GitHub pages, run the following command:
+  * When there are changes to the project that you want to deploy to either Docker nginx container or GitHub pages, run the following command:
 
-   `./build-for-github.sh`
+    `./build-for-github.sh`
 
 * Docker:
 
-** Run `./docker-create-image.sh` when first cloning repo to local machine or if there were changes to Docker image dependencies.
+  * Run `./docker-create-image.sh` when first cloning repo to local machine or if there were changes to Docker image dependencies.
 
-** After building Docker image, run `./docker-run.sh`. Using browser, navigate to `http://localhost/poc-component-router-lang/`.
+  * After building Docker image, run `./docker-run.sh`. Using browser, navigate to `http://localhost/poc-component-router-lang/`.
 
 ## Code scaffolding
 
