@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { Child1Component } from './components/child1/child1.component';
 import { Child2Component } from './components/child2/child2.component';
 import { HomeComponent } from './components/home/home.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Child1Component,
     Child2Component,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     AppRoutingModule,
