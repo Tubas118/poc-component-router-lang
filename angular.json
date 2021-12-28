@@ -6,6 +6,9 @@
     "poc-component-router-lang": {
       "projectType": "application",
       "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
         "@schematics/angular:application": {
           "strict": true
         }
@@ -26,7 +29,7 @@
             "outputPath": "dist/poc-component-router-lang",
             "index": "src/index.html",
             "baseHref": "/poc-component-router-lang/",
-            "localize": true,
+            "localize": false,
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
