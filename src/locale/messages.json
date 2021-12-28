@@ -11,6 +11,7 @@
     "home-works": "Home works!",
     "child-page-link-1": "Child page #1",
     "child-page-link-2": "Child page #2",
-    "header-no-child-route": "Try going somewhere not in the routing table - child-3 does not exist"
+    "header-no-child-route": "Try going somewhere not in the routing table - child-3 does not exist",
+    "page-not-found": "page-not-found works!"
   }
 }
