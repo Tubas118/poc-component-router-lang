@@ -1,12 +1,13 @@
 {
   "name": "poc-component-router-lang",
-  "version": "0.0.0-7",
+  "version": "0.0.0-10",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "i18n": "ng extract-i18n --output-path src/locale --format json"
   },
   "private": true,
   "dependencies": {
