@@ -1,8 +1,14 @@
 {
   "locale": "en-US",
   "translations": {
+    "select-language": "Select language",
+    "lang-en-US": "English (US)",
+    "lang-es": "Spanish",
     "child-1-works": "Child #1 works!",
     "child-2-works": "Child #2 works!",
-    "home-works": "Home works!"
+    "home-works": "Home works!",
+    "child-page-link-1": "Child page #1",
+    "child-page-link-2": "Child page #2",
+    "header-no-child-route": "Try going somewhere not in the routing table - child-3 does not exist"
   }
 }

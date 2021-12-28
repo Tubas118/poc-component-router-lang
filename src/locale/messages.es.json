@@ -1,8 +1,14 @@
 {
   "locale": "es",
   "translations": {
+    "select-language": "Seleccione el idioma",
+    "lang-en-US": "Inglés (EE. UU.)",
+    "lang-es": "Español",
     "child-1-works": "¡El niño # 1 funciona!",
     "child-2-works": "¡El niño # 2 funciona!",
-    "home-works": "¡Casa funciona!"
+    "home-works": "¡Casa funciona!",
+    "child-page-link-1": "Página secundaria n. ° 1",
+    "child-page-link-2": "Página secundaria n. ° 2",
+    "header-no-child-route": "Intente ir a algún lugar que no esté en la tabla de enrutamiento: 'child-3' no existe"
   }
 }
