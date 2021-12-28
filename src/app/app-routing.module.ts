@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'poc-home/child-2', component: Child2Component },
   { path: 'poc-home/404', component: PageNotFoundComponent },
   { path: 'poc-home', component: HomeComponent },
+  { path: '', redirectTo: 'poc-home', pathMatch: 'full' },
   { path: '**', redirectTo: 'poc-home/404', pathMatch: 'full' }
 ];
 
