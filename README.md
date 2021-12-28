@@ -4,7 +4,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/poc-component-router-lang/`. The app will automatically reload if you change any of the source files.
+
+## Docker / GitHub Deployment
+
+* Build:
+
+  * When there are changes to the project that you want to deploy to either Docker nginx container or GitHub pages, run the following command:
+
+    `./build-for-github.sh`
+
+* Docker:
+
+  * Run `./docker-create-image.sh` when first cloning repo to local machine or if there were changes to Docker image dependencies.
+
+  * After building Docker image, run `./docker-run.sh`. Using browser, navigate to `http://localhost/poc-component-router-lang/`.
 
 ## Code scaffolding
 
