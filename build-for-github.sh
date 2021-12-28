@@ -23,5 +23,6 @@ else
   
   COMMIT_VERSION=`npm version | grep -i "${PRJ_NAME}" | awk -F"[:]" '{ print $1,$2 }' | sed -e "s/',//g"`
   CV_CLEAN=`echo ${COMMIT_VERSION}`
+  git add --all
   git commit -a -m "Build - ${CV_CLEAN}"
 fi
