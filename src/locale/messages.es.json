@@ -1,6 +1,8 @@
 {
   "locale": "es",
   "translations": {
+    "app-running-message": "¡La aplicación poc-component-router-lang se está ejecutando!",
+    "go-home": "Volver a casa",
     "select-language": "Seleccione el idioma",
     "lang-en-US": "Inglés (EE. UU.)",
     "lang-es": "Español",
