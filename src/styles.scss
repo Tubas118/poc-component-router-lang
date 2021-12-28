@@ -1,0 +1,9 @@
+$fontname: Consola;
+$font-size-base: 2em;
+
+html, body {
+  font-family: $fontname;
+  font-size: $font-size-base;
+  margin: unset;
+  overflow: hidden;
+}
