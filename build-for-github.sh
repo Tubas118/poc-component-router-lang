@@ -17,7 +17,7 @@ else
   fi
 
   npm version prerelease
-  ng build --output-path docs --base-href "/${PRJ_NAME}/"
+  ng build --output-path docs --base-href "&#x2f;${PRJ_NAME}/"
 
   cp -p src/redirect-index.html docs/index.html
   
