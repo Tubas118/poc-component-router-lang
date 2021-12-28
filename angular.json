@@ -19,6 +19,7 @@
           "options": {
             "outputPath": "dist/poc-component-router-lang",
             "index": "src/index.html",
+            "baseHref": "/poc-component-router-lang/",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
