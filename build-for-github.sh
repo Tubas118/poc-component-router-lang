@@ -9,11 +9,6 @@ echo "Project: ${PRJ_NAME}"
 IS_VALID=`grep -c "\"localize\": true" angular.json`
 
 # -------------------------------------------------------------------------
-function check_git() {
-  FILES_NOT_COMMITTED=`git status | egrep -c "Changes not staged for commit:|Untracked files:"`
-}
-
-# -------------------------------------------------------------------------
 if [[ $IS_VALID -eq 0 ]]; then
   echo "File 'angular.json' missing entry: \"localize\": true"
 
